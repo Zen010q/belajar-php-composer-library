@@ -1,0 +1,16 @@
+{
+    "name": "student/belajar-php-composer-library",
+    "description": "Belajar PHP Composer Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alfi Zain"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SrcImport\\" : "src/"
+        }
+    },
+    "require": {}
+}
